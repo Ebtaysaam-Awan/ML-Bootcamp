@@ -1,0 +1,14 @@
+{
+  "name": "day1-aiservice",
+  "version": "1.0.0",
+  "description": "Day 1 hands-on: AIService with 4 prompt functions using Gemini API",
+  "main": "AIService.js",
+  "scripts": {
+    "start": "node AIService.js",
+    "test:breaks": "node test-breaks.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.3.0",
+    "dotenv": "^16.4.5"
+  }
+}
